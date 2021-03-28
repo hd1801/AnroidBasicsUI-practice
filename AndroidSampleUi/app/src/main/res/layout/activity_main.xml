@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/laptop"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            ></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HP 15 Thin Light 15.6-inch FHD Laptop"
+            android:textSize="24dp"
+            android:fontFamily="serif"
+            android:textColor="@color/black"></TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resolution: "
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:fontFamily="serif"
+            android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1920 x 1080"
+                android:textSize="16dp"
+                android:textColor="@color/black"></TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Dimensions: "
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:fontFamily="serif"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="35.9 x 24.2 x 2 cm;"
+                android:textSize="16dp"
+                android:textColor="@color/black"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Model Number: "
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:fontFamily="serif"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15s-gr0011AU"
+                android:textSize="16dp"
+                android:textColor="@color/black"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Processor: "
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:fontFamily="serif"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" AMD Ryzen 3 3250U (2.6 GHz base clock, up to 3.5 GHz max boost clock, 4 MB L3 cache, 2 cores)"
+                android:textSize="16dp"
+                android:textColor="@color/black"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Memory/Storage: "
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:fontFamily="serif"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 GB DDR4-2400 SDRAM (1 x 8 GB), Upgradable to 16 GB | 1TB HDD 5400 RPM"
+                android:textSize="16dp"
+                android:textColor="@color/black"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Graphics "
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:fontFamily="serif"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AMD Radeon Vega 6 Graphics"
+                android:textSize="16dp"
+                android:textColor="@color/black"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Design/Battery: "
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:fontFamily="serif"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thin and light design | Laptop weight: 1.76 kg | Upto 12 hours of Battery life, 3-cell, 41 Wh Li-ion Fast Charge Battery"
+                android:textSize="16dp"
+                android:textColor="@color/black"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ports: "
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:fontFamily="serif"
+                android:textColor="@color/black"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 SuperSpeed USB Type-C (5Gbps), 2 SuperSpeed USB Type-A (5Gbps), 1 HDMI 1.4b | Without CD-Drive"
+                android:textSize="16dp"
+                android:textColor="@color/black"></TextView>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/w"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            ></ImageView>
+    </LinearLayout>
+</ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
